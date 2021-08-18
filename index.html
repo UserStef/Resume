@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://raw.githubusercontent.com/UserStefDLT/WebResources/master/Images/icon_st.png">
+    <title>St&eacute;fano De La Torre - Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div id="header">
+        <div class="t1">St&eacute;fano De La Torre</div>
+    </div>
+    <div class="nav2">
+        <div class="navtog2" data-navtog="hidden">X</div>
+        <div class="nav-btn2"><a href="https://userstef.github.io/Portfolio/">Portfolio</a></div>
+        <div class="nav-btn2"><a href="#">Resume</a></div>
+        <div class="nav-btn2 nav2-off">Assignments</div>
+        <div class="nav-btn2 nav2-off">Projects</div>
+        <div class="nav-btn2 nav2-off">Experiments</div>
+        <!-- <div class="nav-btn2">Me</div> -->
+    </div>
+
+    <div class="resume">
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="section-part">
+                <div class="t2">Software Engineering</div>
+                <div class="sub2">BYU-I</div>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Computer Human Interface</li>
+                    <li>Software Engineering</li>
+                </ul>
+            </div>
+            <div class="section-part">
+                <div class="t2">Animation and Game Development</div>
+                <div class="sub2">UVU</div>
+                <ul>
+                    <li>Intro to Scripting (Unity)</li>
+                    <li>3D Modeling</li>
+                    <li>Digital Media Essentials</li>
+                </ul>
+            </div>
+            <div class="section-part">
+                <div class="t2">Graphic Design</div>
+                <div class="sub2">IPAD</div>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <div class="section-part cols12">
+                <div class="t2">Computer Languages</div>
+                <div class="sub2"></div>
+                <ul>
+                    <li><strong>C#</strong> with Unity and Visual Studio.</li>
+                    <li><strong>C++</strong> with Visual Studio Community.</li>
+                    <li><strong>Java</strong> with IntelliJ IDEA and Android Studio.</li>
+                    <li><strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> with VS Code.</li>
+                    <li><em>jQuery, Bootstrap, PHP, and Node.js.</em></li>
+                    <li><strong>Python</strong> with Jupyter Notebooks and Google Colaboratory.</li>
+                    <li><strong>R</strong> with R studio. Wrangling data and making graphs for visualizing data insight.</li>
+                </ul>
+            </div>
+            <div class="section-part hidden">
+                <div class="t2">Computer Software</div>
+                <div class="sub2">IDE</div>
+                <ul>
+                    <li>VS Code</li>
+                    <li>Visual Studio Community</li>
+                    <li>Unity</li>
+                    <li>Android Studio</li>
+                </ul>
+            </div>
+            <div class="section-part">
+                <div class="t2">Design Software</div>
+                <div class="sub2"></div>
+                <ul>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Autodesk Maya</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <div class="section-part">
+                <div class="t2">Persuasive Media</div>
+                <div class="sub2">Full-stack</div>
+                <ul>
+                    <li>Organized documents into Confluence.</li>
+                    <li>Investigated integration of features.</li>
+                    <li>Refactored CSS styling and integrated dark mode feature.</li>
+                    <li>Designed mobile app layout variants.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="name-end">by St&eacute;fano.</div>
+  
+    <script>
+        window.addEventListener('click', (ev) => {
+            if(ev.target.dataset.navtog != null){
+                if(ev.target.dataset.navtog != 'showing'){
+                    ev.target.dataset.navtog = 'showing';
+                } else {
+                    ev.target.dataset.navtog = 'hidden';
+                }
+                
+            }
+        })
+    </script>
+</body>
+</html>
