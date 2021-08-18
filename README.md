@@ -1,17 +1,21 @@
 # Stefano De La Torre
 
 ## __Skills:__
-### __Programming:__
-* C#
-* C++
-* Java
-* HTML
-* CSS
-* JavaScript
-* jQuery
-* Bootstrap
-* Python
-* R
+### __Programming Languages:__
+* C# with Unity and Visual Studio.
+* C++ with Visual Studio Community.
+* Java with IntelliJ IDEA and Android Studio.
+* HTML, CSS, and JavaScript with VS Code. 
+  * jQuery, Bootstrap, PHP, and Node.js.
+* Python with Jupyter Notebooks and Google Colaboratory.
+* R with R studio. Wrangling data and making graphs for visualizing data insight.
+
+### __Programming Knowledge:__
+* Object Oriented Programming.
+* Data Structures.
+* UX and UI.
+* Regular Expressions.
+* Documentation (SRS, SDD in UML standard.)
 
 ### __Design:__
 * Adobe Photoshop
@@ -25,6 +29,7 @@
 * Spanish (native)
 * English
 
+
 ## __Education:__
 
 ### __B.S. in Software Engineering__
@@ -34,6 +39,8 @@
 * Web Engineering II (HTML, CSS, Javascript, PHP, Node.js)
 * Machine Learning and Data Mining (Python)
 * Data Wrangling and Visualization (with R Studio)
+* Web Frontend Development II (HTML, CSS, Javascript)
+* Human Computer Interactions (UX)
 
 ### __B.S. in Computer Science__
 *Utah Valley University*
@@ -48,7 +55,7 @@
 * Photography I
   * Understanding of light in relation to shutter speed, aperture, and ISO.
 * Basic Drawing
-* 3D Modeling (Autodesk Maya)
+* 3D Modeling (Autodesk Maya) [Models in Sketchfab](https://sketchfab.com/UserStef)
 * Intro to Scripting (C#, Unity)
 * Digital Media Essentials (Creative Suit)
 
@@ -66,8 +73,9 @@ Instituto Peruano de Arte y Diseño
 ___Persuasive Media___
 *Aug 2020 - Present| Remote, TX*
 * Organized documents into Confluence.
-* Handled different tasks.
 * Investigated integration of features.
+* Refactored CSS styling and integrated dark mode feature.
+* Designed mobile app layout variants.
 
 ### __Store Associate__
 ___Import Export D’Stefano S.R.L.___
