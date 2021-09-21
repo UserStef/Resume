@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="resume.css">
 </head>
 <body>
-    <div id="header">
+    <header>
         <div class="t1">St&eacute;fano De La Torre</div>
+    </header>
+    <div class="navx">
+        <input type="checkbox" name="navtog_x" id="navtog_x" class="navtog_x">
+        <label for="navtog_x" class="navtog_label">
+            <div class="icon-menu-tog"></div>
+        </label>
+        <div class="navbtn_x"><a href="https://userstef.github.io/Portfolio/">Portfolio</a></div>
+        <div class="navbtn_x"><a href="https://github.com/UserStef">Github</a></div>
+        <div class="navbtn_x"><a href="https://www.linkedin.com/in/stefanodelatorre/">LinkedIn</a></div>
     </div>
-    <div class="nav2">
-        <div class="navtog2" data-navtog="hidden">X</div>
-        <div class="nav-btn2"><a href="https://userstef.github.io/Portfolio/">Portfolio</a></div>
-        <div class="nav-btn2"><a href="#">Resume</a></div>
-        <div class="nav-btn2 nav2-off">Assignments</div>
-        <div class="nav-btn2 nav2-off">Projects</div>
-        <div class="nav-btn2 nav2-off">Experiments</div>
-        <!-- <div class="nav-btn2">Me</div> -->
-    </div>
+
 
     <div class="resume">
         <div class="section">
@@ -30,7 +31,7 @@
                 <div class="sub2">BYU-I</div>
                 <ul>
                     <li>Web Development</li>
-                    <li>Computer Human Interface</li>
+                    <li>Human Computer Interface</li>
                     <li>Software Engineering</li>
                 </ul>
             </div>
@@ -49,7 +50,7 @@
                 <ul>
                     <li>Photoshop</li>
                     <li>Illustrator</li>
-                    <li><a href=""></a></li>
+                    <!-- <li><a href=""></a></li> -->
                 </ul>
             </div>
         </div>
@@ -105,18 +106,5 @@
     </div>
     
     <div class="name-end">by St&eacute;fano.</div>
-  
-    <script>
-        window.addEventListener('click', (ev) => {
-            if(ev.target.dataset.navtog != null){
-                if(ev.target.dataset.navtog != 'showing'){
-                    ev.target.dataset.navtog = 'showing';
-                } else {
-                    ev.target.dataset.navtog = 'hidden';
-                }
-                
-            }
-        })
-    </script>
 </body>
 </html>
